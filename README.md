@@ -118,7 +118,6 @@ jupyter notebook stock_etl_project/notebooks/
 - `date` (TIMESTAMPTZ): Trading date
 - `open`, `high`, `low`, `close` (DOUBLE PRECISION): Price data
 - `volume` (DOUBLE PRECISION): Trading volume
-- `adj_*` (DOUBLE PRECISION): Adjusted prices
 - `split_factor`, `dividend` (DOUBLE PRECISION): Corporate actions
 - `daily_return` (DOUBLE PRECISION): Daily return percentage
 - `ma_7`, `ma_30` (DOUBLE PRECISION): Moving averages
