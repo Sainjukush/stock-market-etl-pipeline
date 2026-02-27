@@ -42,11 +42,11 @@ df[numeric_cols] = df[numeric_cols].astype(float)
 
 df = df.dropna(subset=['symbol', 'date'])
 
-DB_USER = "apple"
-DB_PASSWORD = "newStrongPassword123"
+DB_USER = "***"
+DB_PASSWORD = "****"
 DB_HOST = "localhost"
 DB_PORT = "5432"
-DB_NAME = "kush"
+DB_NAME = "****"
 
 engine = create_engine(
     f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
