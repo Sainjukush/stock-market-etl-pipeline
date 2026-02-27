@@ -7,11 +7,11 @@ PROCESSED_FILE = Path("/Users/apple/projects/stock_etl_project/data/processed/da
 df = pd.read_parquet(PROCESSED_FILE)
 print(f"Loaded {len(df)} rows from {PROCESSED_FILE.name}")
 
-DB_USER = "apple"
-DB_PASSWORD = "newStrongPassword123"
+DB_USER = "****"
+DB_PASSWORD = "****"
 DB_HOST = "localhost"
 DB_PORT = "5432"
-DB_NAME = "kush"
+DB_NAME = "*****"
 
 engine = create_engine(
     f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
