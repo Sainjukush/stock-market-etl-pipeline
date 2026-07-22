@@ -53,7 +53,7 @@ pip install -r requirements.txt
 3. Set up PostgreSQL database:
 ```sql
 CREATE DATABASE kush;
-CREATE USER apple WITH PASSWORD 'newStrongPassword123';
+CREATE USER apple WITH PASSWORD '********';
 GRANT ALL PRIVILEGES ON DATABASE kush TO apple;
 ```
 
